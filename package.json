@@ -1,0 +1,23 @@
+{
+  "name": "nodeServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "gulp": "^4.0.2",
+    "serialport": "^7.1.5",
+    "socket.io": "^2.2.0",
+    "uikit": "^3.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
